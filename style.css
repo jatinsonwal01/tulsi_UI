@@ -1,0 +1,124 @@
+body{
+
+    font-family: 'PT sans', sans-serif;
+    background-color: #252529;
+    margin:0;
+    color:rgb(43, 189, 79);
+    line-height: 1.6;  
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+#showcase
+{
+    margin: 0;
+    padding: 0;
+    background: url('plant.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: scroll;
+    overflow-y: hidden;
+}
+
+#showcase .container
+{
+    margin-top: 25vh;
+
+}
+
+#showcase h1
+{
+    font-size: 4rem;
+     margin-bottom: 0;
+}
+
+#showcase h2
+{
+    font-size: 2rem;
+    
+}
+
+nav
+{
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(51, 34, 34); 
+    position: fixed;
+}
+
+nav ul
+{
+    margin:0;
+    padding:0;
+
+}
+
+nav li
+{
+    display: inline;
+    float:left;
+}
+
+nav a
+{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    
+
+}
+
+nav a:nth-child(1)
+{
+    width: 200px ;
+}
+
+nav li:hover
+{
+    
+    background-color: rgb(43, 189, 79);
+}
+
+.container
+{
+    max-width: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+footer .footerka
+{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+
+footer .footerka ul
+{
+    list-style: none;
+}
+
+footer .footerka ul li:first-child
+{
+    font-size: 1.2rem;
+    padding-bottom:  0.5rem;
+    border-bottom: solid 1px #444;
+    margin-bottom: 1rem;
+}
+
+footer .bottomki
+{
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+}
